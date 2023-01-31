@@ -1,3 +1,11 @@
+:root {
+    --main-font: #000000;
+    --secondary-font: #FFFFFF;
+    --active-font: #2196F3;
+
+}
+
+
 .list {
 list-style: none;
 }
@@ -6,56 +14,64 @@ list-style: none;
 text-decoration: none;
 }
 
-.nav-list-link-act:hover,
-.nav-list-link-act:focus,
-{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #2196F3;
-}
 
-.nav-list-link:hover,
-.nav-list-link:focus,
-{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color:  #2196F3;
-}
-
-.contact-mail:focus,
-.contact-mail:hover {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #2196F3;
-}
+/*============ START HEADER =============*/
 .logo-link {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em; 
-    background-color: #2196F3;
+    background-color: --active-font;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 100%;
     background-image: linear-gradient(
         90deg,
-        #2196F3 20%,
-        #000000 80%
+        --active-font 20%,
+         --main-font 80%
     );
 }
+/*============ END HEADER ===============*/
+
+/*============ START COMPONENTS =========*/
+.nav-list-link-act:hover,
+.nav-list-link-act:focus,
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-mail:focus,
+.contact-mail:hover {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: --active-font;
+}
+/*
+.nav-list-link:hover,
+.nav-list-link:focus
+{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:  --active-font;
+}
+
+.contact-mail:focus,
+.contact-mail:hover {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: --active-font;
+}*/
+/*============ START COMPONENTS ===========*/
+/*============ START HERO ===============*/
+/*============ END HERO =================*/
+
