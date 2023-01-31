@@ -53,7 +53,7 @@ color: var(--main-font);
 color: var(--active-font); 
 }
 
-.nav-list-link {
+/*.nav-list-link {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -65,8 +65,8 @@ color: var(--main-font);
 
 .nav-list-link:hover,
 .nav-list-link:focus {
-color: var(--active-font)
-}
+color: var(--active-font);
+}*/
 
 .contact-mail {
 font-family: 'Roboto', sans-serif;
@@ -80,7 +80,7 @@ color: var(--main-font);
 
 .contact-mail:focus,
 .contact-mail:hover {
-color: var(--active-font)    
+color: var(--active-font);    
 }
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
