@@ -37,14 +37,17 @@ text-decoration: none;
 /*============ END HEADER ===============*/
 
 /*============ START COMPONENTS =========*/
-.nav-list-link-act:hover,
-.nav-list-link-act:focus {
+.nav-list-link-act {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: --active-font;
+color: --main-font;
+}
+.nav-list-link-act:hover,
+.nav-list-link-act:focus  {
+    color: --active-font; 
 }
 
 .nav-list-link:hover,
