@@ -38,11 +38,7 @@ text-decoration: none;
 
 /*============ START COMPONENTS =========*/
 .nav-list-link-act:hover,
-.nav-list-link-act:focus,
-.nav-list-link:hover,
-.nav-list-link:focus,
-.contact-mail:focus,
-.contact-mail:hover {
+.nav-list-link-act:focus {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
@@ -50,11 +46,10 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: --active-font;
 }
-/*
+
 .nav-list-link:hover,
-.nav-list-link:focus
-{
-font-family: 'Roboto';
+.nav-list-link:focus {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -70,7 +65,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: --active-font;
-}*/
+}
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
 /*============ END HERO =================*/
