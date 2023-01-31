@@ -18,6 +18,7 @@ text-decoration: none;
 /*============ START HEADER =============*/
 .logo-link {
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -52,25 +53,35 @@ color: var(--main-font);
 color: var(--active-font); 
 }
 
-/*.nav-list-link:hover,
-.nav-list-link:focus {
+.nav-list-link {
 font-family: 'Roboto', sans-serif;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color:  --active-font;
+color: var(--main-font);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+color: var(--active-font)
+}
+
+.contact-mail {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-font);
 }
 
 .contact-mail:focus,
 .contact-mail:hover {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: --active-font;
-}*/
+color: var(--active-font)    
+}
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
 /*============ END HERO =================*/
