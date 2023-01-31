@@ -43,11 +43,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: --main-font;
+color: var(--main-font);
 }
+
 .nav-list-link-act:hover,
 .nav-list-link-act:focus  {
-    color: --active-font; 
+    color: var(--active-font); 
 }
 
 .nav-list-link:hover,
