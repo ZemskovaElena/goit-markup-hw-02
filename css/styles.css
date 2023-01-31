@@ -45,28 +45,14 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #000000;
+color: var(--main-font);
 }
 
 .nav-list-link-act:hover,
 .nav-list-link-act:focus {
-color: #2196F3; 
+color: var(--active-font); 
 }
 
-/*.nav-list-link {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-font);
-}
-
-.nav-list-link:hover,
-.nav-list-link:focus {
-color: var(--active-font);
-}*/
 
 .contact-mail {
 font-family: 'Roboto', sans-serif;
