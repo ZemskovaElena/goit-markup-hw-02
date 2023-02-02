@@ -1,10 +1,15 @@
 :root {
-    --main-font: #000000;
-    --secondary-font: #FFFFFF;
+    --primery-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
     --active-font: #2196F3;
-
+    --text-color-theme-dark: #FFFFFF;
+    --main-text-color-theme-light: #757575;
+    --secondary-text-color-theme-light: #212121;
 }
 
+body {
+    font-family: var (--primery-font-family);
+}
 
 .list {
 list-style: none;
@@ -17,26 +22,25 @@ text-decoration: none;
 
 /*============ START HEADER =============*/
 .logo-link {
-    font-family: 'Raleway', sans-serif;
+font-family: var (--secondary-font-family);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 /* identical to box height */
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--active-font);
 }
 /*============ END HEADER ===============*/
 
 /*============ START COMPONENTS =========*/
 .nav-list-link-act {
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--main-font);
+color: var(--secondary-text-color-theme-light);
 }
 
 .nav-list-link-act:hover,
@@ -46,13 +50,12 @@ color: var(--active-font);
 
 
 .contact-mail {
-font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--main-font);
+color: var(--secondary-text-color-theme-light);
 }
 
 .contact-mail:focus,
