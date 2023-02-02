@@ -1,6 +1,6 @@
 :root {
-    --primery-font-family: 'Roboto', sans-serif;
-    --secondary-font-family: 'Raleway', sans-serif;
+    --primery-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
     --active-font: #2196F3;
     --text-color-theme-dark: #FFFFFF;
     --main-text-color-theme-light: #757575;
@@ -22,7 +22,7 @@ text-decoration: none;
 
 /*============ START HEADER =============*/
 .logo-link {
-font-family: var (--secondary-font-family);
+font-family: var(--secondary-font-family);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
