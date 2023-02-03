@@ -64,18 +64,18 @@ color: var(--active-font);
 }
 
 .contact-number {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--main-text-color-theme-light);
-    }
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-text-color-theme-light);
+}
     
-    .contact-number:focus,
-    .contact-number:hover {
-    color: var(--active-font);    
-    }
+.contact-number:focus,
+.contact-number:hover {
+color: var(--active-font);    
+}
 
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
