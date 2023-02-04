@@ -5,6 +5,7 @@
     --text-color-theme-dark: #FFFFFF;
     --main-text-color-theme-light: #757575;
     --secondary-text-color-theme-light: #212121;
+    --link-ft-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -41,6 +42,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color-theme-light);
+cursor: pointer;
 }
 
 .nav-list-link-act:hover,
@@ -56,6 +58,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-text-color-theme-light);
+cursor: pointer;
 }
 
 .contact-mail:focus,
@@ -70,12 +73,145 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-text-color-theme-light);
+cursor: pointer;
 }
     
 .contact-number:focus,
 .contact-number:hover {
 color: var(--active-font);    
 }
+
+.primery-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;    
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-color-theme-dark);    
+}
+
+.primery-btn {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--text-color-theme-dark);
+cursor: pointer;   
+}
+
+.primery-btn:hover, 
+.primery-btn:focus {
+background-color: var(--active-font);
+}
+
+.main-list-subtitle {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--secondary-text-color-theme-light);
+}
+
+.main-list-desc {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px; 
+letter-spacing: 0.03em;    
+color: var(--main-text-color-theme-light);       
+}
+
+.heading {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+
+.crew-list-item-name {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+
+.crew-list-item-prof {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color-theme-light);
+}
+
+.logo-link-ft {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--active-font);
+}
+
+.contact-address-ft {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-color-theme-dark);
+}
+
+/*.contact-address-ft:hover,
+.contact-address-ft:focus {
+color: var(--active-font);
+}*/
+
+.contact-mail-ft {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--link-ft-color);
+}
+
+/*.contact-mail-ft:hover,
+.contact-mail-ft:focus {
+color: var(--active-font);
+}*/
+
+
+.contact-number-ft {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--link-ft-color);
+}
+
+/*.contact-number-ft:hover,
+.contact-number-ft:focus {
+color: var(--active-font);
+}*/
+
 
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
