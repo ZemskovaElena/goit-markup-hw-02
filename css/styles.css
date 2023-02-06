@@ -28,10 +28,26 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
 letter-spacing: 0.03em;
+}
+
+.logo-color-blue {
 color: var(--active-font);
 }
+
+.logo-color-black {
+color: #000000;
+}
+
+/*.logo-color-white {
+color: var(--text-color-theme-dark);
+}*/
+
+/*.logo-link :hover,
+.logo-link :focus {
+color: var(--active-font);
+}*/
+
 /*============ END HEADER ===============*/
 
 /*============ START COMPONENTS =========*/
@@ -212,6 +228,39 @@ letter-spacing: 0.03em;
 color: var(--active-font);
 }*/
 
+.nav-btm {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+
+.nav-btn:hover, 
+.nav-btn:focus {
+background-color: var(--active-font);
+color: var(--text-color-theme-dark);
+}
+
+.project-list-item-name {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color-theme-light);
+}
+
+.project-list-item-class {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--main-text-color-theme-light);
+}
 
 /*============ START COMPONENTS ===========*/
 /*============ START HERO ===============*/
