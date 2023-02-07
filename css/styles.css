@@ -124,6 +124,7 @@ cursor: pointer;
 .primery-btn:hover, 
 .primery-btn:focus {
 background-color: var(--active-font);
+color: var(--text-color-theme-dark);
 }
 
 .main-list-subtitle {
