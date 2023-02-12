@@ -117,14 +117,13 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-/*color: var(--text-color-theme-dark);*/
+color: var(--text-color-theme-dark);
+background-color: var(--active-font);
 cursor: pointer;   
 }
 
-.primery-btn:hover, 
-.primery-btn:focus {
-background-color: var(--active-font);
-color: var(--text-color-theme-dark);
+.primery-btn:active {
+background-color: #188CE8;
 }
 
 .main-list-subtitle {
