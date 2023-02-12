@@ -1,42 +1,41 @@
 :root {
-    --primery-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Raleway", sans-serif;
-    --active-font: #2196F3;
-    --text-color-theme-dark: #FFFFFF;
-    --main-text-color-theme-light: #757575;
-    --secondary-text-color-theme-light: #212121;
-    --link-ft-color: rgba(255, 255, 255, 0.6);
+  --primery-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --active-font: #2196f3;
+  --text-color-theme-dark: #ffffff;
+  --main-text-color-theme-light: #757575;
+  --secondary-text-color-theme-light: #212121;
+  --link-ft-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-font-family: var (--primery-font-family);
+  font-family: var (--primery-font-family);
+  color: var(--main-text-color-theme-light);
 }
 
 .list {
-list-style: none;
+  list-style: none;
 }
 
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
-
 
 /*============ START HEADER =============*/
 .logo-link {
-font-family: var(--secondary-font-family);
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .logo-color-blue {
-color: var(--active-font);
+  color: var(--active-font);
 }
 
 .logo-color-black {
-color: #000000;
+  color: #000000;
 }
 
 /*.logo-color-white {
@@ -50,148 +49,168 @@ color: var(--active-font);
 
 /*============ END HEADER ===============*/
 
+/*============ START HERO ===============*/
+
+.primery-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: var(--text-color-theme-dark);*/
+}
+
+.primery-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-theme-dark);
+  background-color: var(--active-font);
+  cursor: pointer;
+}
+
+.primery-btn:active {
+  background-color: #188ce8;
+}
+
+/*============ END HERO =================*/
+
 /*============ START COMPONENTS =========*/
 .nav-list-link-act {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--secondary-text-color-theme-light);
-cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+  cursor: pointer;
 }
 
 .nav-list-link-act:hover,
 .nav-list-link-act:focus {
-color: var(--active-font); 
+  color: var(--active-font);
 }
 
-
 .contact-mail {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color-theme-light);
-cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
 }
 
 .contact-mail:focus,
 .contact-mail:hover {
-color: var(--active-font);    
+  color: var(--active-font);
 }
 
 .contact-number {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-text-color-theme-light);
-cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
 }
-    
+
 .contact-number:focus,
 .contact-number:hover {
-color: var(--active-font);    
-}
-
-.primery-title {
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;    
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-/*color: var(--text-color-theme-dark);*/
-}
-
-.primery-btn {
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: var(--text-color-theme-dark);
-background-color: var(--active-font);
-cursor: pointer;   
-}
-
-.primery-btn:active {
-background-color: #188CE8;
+  color: var(--active-font);
 }
 
 .main-list-subtitle {
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--secondary-text-color-theme-light);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color-theme-light);
 }
 
 .main-list-desc {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px; 
-letter-spacing: 0.03em;    
-color: var(--main-text-color-theme-light);       
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .heading {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color-theme-light);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
 }
 
 .crew-list-item-name {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color-theme-light);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
 }
 
 .crew-list-item-prof {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-text-color-theme-light);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
+.nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+  cursor: pointer;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--active-font);
+  color: var(--text-color-theme-dark);
+}
+
+.project-list-item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.project-list-item-class {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/*============ END COMPONENTS ===========*/
+
+/*============ START FOOTER =============*/
+
 .logo-link-ft {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--active-font);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--active-font);
 }
 
 .contact-address-ft {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: var(--text-color-theme-dark);*/
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: var(--text-color-theme-dark);*/
 }
 
 /*.contact-address-ft:hover,
@@ -200,12 +219,10 @@ color: var(--active-font);
 }*/
 
 .contact-mail-ft {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: var(--link-ft-color);*/
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: var(--link-ft-color);*/
 }
 
 /*.contact-mail-ft:hover,
@@ -213,14 +230,11 @@ letter-spacing: 0.03em;
 color: var(--active-font);
 }*/
 
-
 .contact-number-ft {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: var(--link-ft-color);*/
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: var(--link-ft-color);*/
 }
 
 /*.contact-number-ft:hover,
@@ -228,42 +242,4 @@ letter-spacing: 0.03em;
 color: var(--active-font);
 }*/
 
-.nav-btn {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color-theme-light);
-cursor: pointer;
-}
-
-.nav-btn:hover, 
-.nav-btn:focus {
-background-color: var(--active-font);
-color: var(--text-color-theme-dark);
-}
-
-.project-list-item-name {
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2.00;
-letter-spacing: 0.06em;
-color: var(--secondary-text-color-theme-light);
-}
-
-.project-list-item-class {
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--main-text-color-theme-light);
-}
-
-/*============ START COMPONENTS ===========*/
-/*============ START HERO ===============*/
-/*============ END HERO =================*/
-
+/*============ END FOOTER =============*/
