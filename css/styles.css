@@ -51,6 +51,10 @@ color: var(--active-font);
 
 /*============ START HERO ===============*/
 
+.primery-box {
+  background: #2f303a;
+}
+
 .primery-title {
   font-weight: 900;
   font-size: 44px;
@@ -58,7 +62,7 @@ color: var(--active-font);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: var(--text-color-theme-dark);*/
+  color: var(--text-color-theme-dark);
 }
 
 .primery-btn {
@@ -88,6 +92,11 @@ color: var(--active-font);
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-light);
   cursor: pointer;
+}
+
+.st,
+.pf {
+  color: var(--active-font);
 }
 
 .nav-list-link-act:hover,
@@ -138,6 +147,10 @@ color: var(--active-font);
   letter-spacing: 0.03em;
 }
 
+.crew {
+  background: #f5f4fa;
+}
+
 .heading {
   font-weight: 700;
   font-size: 36px;
@@ -174,7 +187,8 @@ color: var(--active-font);
 }
 
 .nav-btn:hover,
-.nav-btn:focus {
+.nav-btn:focus,
+.nav-btn:active {
   background-color: var(--active-font);
   color: var(--text-color-theme-dark);
 }
@@ -197,6 +211,10 @@ color: var(--active-font);
 
 /*============ START FOOTER =============*/
 
+.ft {
+  background: #2f303a;
+}
+
 .logo-link-ft {
   font-family: "Raleway";
   font-weight: 700;
@@ -206,40 +224,44 @@ color: var(--active-font);
   color: var(--active-font);
 }
 
+.logo-color-white {
+  color: #ffffff;
+}
+
 .contact-address-ft {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: var(--text-color-theme-dark);*/
+  color: var(--text-color-theme-dark);
 }
 
-/*.contact-address-ft:hover,
+.contact-address-ft:hover,
 .contact-address-ft:focus {
-color: var(--active-font);
-}*/
+  color: var(--active-font);
+}
 
 .contact-mail-ft {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: var(--link-ft-color);*/
+  color: var(--link-ft-color);
 }
 
-/*.contact-mail-ft:hover,
+.contact-mail-ft:hover,
 .contact-mail-ft:focus {
-color: var(--active-font);
-}*/
+  color: var(--active-font);
+}
 
 .contact-number-ft {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: var(--link-ft-color);*/
+  color: var(--link-ft-color);
 }
 
-/*.contact-number-ft:hover,
+.contact-number-ft:hover,
 .contact-number-ft:focus {
-color: var(--active-font);
-}*/
+  color: var(--active-font);
+}
 
 /*============ END FOOTER =============*/
