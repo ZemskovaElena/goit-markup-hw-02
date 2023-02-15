@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: var (--primery-font-family);
+  font-family: var(--primery-font-family);
   color: var(--main-text-color-theme-light);
 }
 
@@ -109,7 +109,7 @@ color: var(--active-font);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+  color: var(--main-text-color-theme-light);
   cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ color: var(--active-font);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
+  color: var(--main-text-color-theme-light);
   cursor: pointer;
 }
 
@@ -184,6 +184,7 @@ color: var(--active-font);
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
   cursor: pointer;
+  background: #F5F4FA;
 }
 
 .nav-btn:hover,
@@ -205,6 +206,7 @@ color: var(--active-font);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  color: var(--main-text-color-theme-light);
 }
 
 /*============ END COMPONENTS ===========*/
@@ -229,6 +231,7 @@ color: var(--active-font);
 }
 
 .contact-address-ft {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -241,6 +244,7 @@ color: var(--active-font);
 }
 
 .contact-mail-ft {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -253,6 +257,7 @@ color: var(--active-font);
 }
 
 .contact-number-ft {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
